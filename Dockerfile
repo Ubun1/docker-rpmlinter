@@ -1,5 +1,5 @@
-FROM saltstack/centos-6-minimal
-MAINTAINER Sasha Gerrand <centos-rpms@sgerrand.com>
+FROM library/fedora:28
+MAINTAINER Nikita Kretov <kretov995@gmail.com>
 ENV SPECSDIR /specs
 RUN yum clean all \
   && yum update -y \
